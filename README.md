@@ -91,7 +91,7 @@ ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=**;HOSTNAME=**
 
 ![](snaps/OC7.png)
 
-- Add the Github Repo URL in its field and show advanced option then add `/flask-app` in Context Dir field and choose a name for your app
+- Add the Github Repo URL https://github.com/mostafa3m/Flask-db-oc.git in its field and show advanced option then add `/flask-app` in Context Dir field and choose a name for your app
 
 ![](snaps/OC8.png)
 ![](snaps/OC9.png)
