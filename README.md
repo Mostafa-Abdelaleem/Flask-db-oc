@@ -72,7 +72,7 @@ oc new-project flask-db-project
 
 **make sure the the secret name and key are `dbcred` as the application access the env variables by the key name**
 ```
-oc create secret generic dbced --from-literal=dbcre="your db2 ssldsn value"
+oc create secret generic dbced --from-literal=dbcred="your db2 ssldsn value"
 ```
 ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=**;HOSTNAME=**;PORT=50001;PROTOCOL=TCPIP;UID=**;PWD=**;Security=SSL;"
 
