@@ -57,8 +57,9 @@ This tutorial should take about 45 min to complete.
 
 ***3- create an OpenShift Project***
 
-- from terminal
+- from terminal log in to your OC cluster using API Endpoint	ex.`	https://api.ocp-eu2****` and create project
 ```
+oc login "your OC API Endpoint"	
 oc new-project flask-db-project
 ```
 
