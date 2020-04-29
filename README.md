@@ -81,17 +81,17 @@ ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=**;HOSTNAME=**
 ![](snaps/OC4.png)
 ![](snaps/OC5.png)
 
-***5- deploy our flask app and connect it to the db database***
+***5- deploy the flask app and connect it to the db database***
 
-- create a new app by going to add, choose from catalog 
+- create a new app by going to add then choose from catalog 
 
 ![](snaps/OC6.png)
 
-- Choose python in languages and choose a python app then press create application 
+- press languages, choose python and choose a python app then press create application 
 
 ![](snaps/OC7.png)
 
-- Add the Github Repo URL in  and show advanced option then add /flask-app in Context Dir field and choose a name for your app
+- Add the Github Repo URL in its field and show advanced option then add `/flask-app` in Context Dir field and choose a name for your app
 
 ![](snaps/OC8.png)
 ![](snaps/OC9.png)
@@ -106,7 +106,7 @@ ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=**;HOSTNAME=**
 
 ***6- monitor the build and deployment process***
 
-- you can monitor the build process and the deployment process until it's done.
+- you can monitor the build process and the deployment process till it's done.
 - Also notice the app route (URL)
 
 ![](snaps/OC11.png)
@@ -114,14 +114,13 @@ ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=**;HOSTNAME=**
 
 ***7- Verify the app works and connects to db2 database***
 
-Remember to open the db2 console to watch changes if you want. please note that db2 lite plan gives one schema where you
-can create table and it has the same name as your user in the service credentials so watch changes there
+(optional)Remember to open the db2 console to watch changes if you want. please note that db2 lite plan gives you one  schema where you can create table and it has the same name as your user in the service credentials so watch changes there
 
-Wait for the app to be completely deployed then try it.
+Wait for the app to be completely deployed then try it by pressing on the Application URL in the routes section.
 
 **the app has four URLs**
 
-- 1- main URL: (the APP exposed route)
+- 1- main URL: (the APP exposed route)    
   It shows that the App is online and also creates a table named values in the db2 database
   
   ![](snaps/OC12.png)
