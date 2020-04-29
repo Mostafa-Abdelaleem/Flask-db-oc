@@ -146,7 +146,7 @@ Wait for the app to be completely deployed then try it by pressing on the Applic
 
 # Summary
 
-In this toturial we saw how easy it is to deploay an application and connect it to a db2 database on IBM Cloud in a matter of minutes. Openshift identified, containerized, built and deployed our application for us.
+In this tutorial we saw how easy it is to deploy an application and connect it to a db2 database on IBM Cloud in a matter of minutes. Openshift identified, containerized, built and deployed our application for us.
 This shows how you can build applications with different source codes and connect it to other services securely without the fear of any sensitive data exposed (the db2 credentials in our case) thanks to OpenShift Secrets.       
 
 
