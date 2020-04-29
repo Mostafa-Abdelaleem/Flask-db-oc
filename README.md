@@ -15,7 +15,7 @@ containerize, deploy, and manage our application in a span of minutes.
 In order to follow the tutorial you should have.
 
 - Active IBM cloud account, please create one if you don't have one on [IBM Cloud](https://cloud.ibm.com/registration)
-- provisioned OpenShift 4.2, you can provision yours [here](https://cloud.ibm.com/kubernetes/landing?platformType=openshift)
+- A Provisioned OpenShift 4.2 cluster, you can provision yours [here](https://cloud.ibm.com/kubernetes/landing?platformType=openshift)
 - OpenShift CLI, download [HERE](https://cloud.ibm.com/docs/openshift?topic=openshift-openshift-cli)
 
 # Estimated Time
