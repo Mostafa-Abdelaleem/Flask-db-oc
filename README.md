@@ -91,13 +91,13 @@ ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=**;HOSTNAME=**
 
 ![](snaps/OC7.png)
 
-- Add the Github Repo URL https://github.com/mostafa3m/Flask-db-oc.git in its field and show advanced option then add `/flask-app` in Context Dir field and choose a name for your app
+- Add the Github Repo URL https://github.com/mostafa3m/Flask-db-oc.git in its field and show advanced option then add `/flask-app` in Context Dir field and choose a name for your app then press on Deployment Configuration
 
 ![](snaps/OC8.png)
 ![](snaps/OC9.png)
 
 
-- press on Deployment Configuration and choose Add from config map or secret and add the values of our secret
+- IN Deployment Configuration choose Add from config map or secret and add the values of our secret
 - Remove the empty Environment Variable and click create
 
 ![](snaps/OC10.png)
