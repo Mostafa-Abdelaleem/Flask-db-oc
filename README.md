@@ -58,7 +58,6 @@ oc new-project flask-db-project
 
 - Or from OC web-console switch to developer mode for a Developer oriented  view and create a project
 ![](snaps/OC1.png)
-![](snaps/OC2.png)
 
 ***4- create an OpenShift Secret***
 
