@@ -4,6 +4,8 @@ Applications nowadays are built in many different source codes and in many compo
 where you build your application in different small pieces (containers) and use some orchestration tool that can orchestrate 
 your processes simply and ensure that all tasks happen in the proper order.
 
+Connecting databases to your application or website can be a real pain specially with changing environments as you would want a seemless switch between different databases and work environment like development, test and deploying. you want it an easy yet secure way to do that, with openshift secret you can create a connection to your database in seconds while ensuring the privacy of your credentials.
+
 RedHat's Openshift has emerged as a leading hybrid cloud, enterprise Kubernetes application platform that can help with containerizing, deploying, and monitoring your application. It delivers a cloud-like experience as a self-managing
 platform with automatic software updates and lifecycle management across hybrid cloud environments.
 
