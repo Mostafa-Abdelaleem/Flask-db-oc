@@ -62,19 +62,19 @@ This tutorial should take about 45 min to complete.
 oc new-project flask-db-project
 ```
 
-- Or from OC web-console switch to developer mode for a simpler view and create a project
+- Or from OC web-console switch to developer mode for a Developer oriented  view and create a project
 ![](snaps/OC1.png)
 ![](snaps/OC2.png)
 
 ***4- create an OpenShift Secret***
 
-- from terminal create a secret to store and encrypt our database credentials to access it later as an environment variable
+- from terminal create a secret to store and encrypt our database credentials to access it later using  environment variables
 
 **make sure the the secret name and key are `dbcred` as the application access the env variables by the key name**
 ```
 oc create secret generic dbcred --from-literal=dbcred="your db2 ssldsn value"
 ```
-ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=**;HOSTNAME=**;PORT=50001;PROTOCOL=TCPIP;UID=**;PWD=**;Security=SSL;"
+ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=*;HOSTNAME=*;PORT=50001;PROTOCOL=TCPIP;UID=*;PWD=*;"
 
 -Or from OC webconsole go to search under advanced and filter services for secrets then create a key value secret
 ![](snaps/OC3.png)
