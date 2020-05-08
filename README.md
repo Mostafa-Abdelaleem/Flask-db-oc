@@ -71,7 +71,6 @@ ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=*;HOSTNAME=*;P
 -Or from OC webconsole go to search under advanced and filter services for secrets then create a key value secret
 ![](snaps/OC3.png)
 ![](snaps/OC4.png)
-![](snaps/OC5.png)
 
 ***5- deploy the flask app and connect it to the db database***
 
@@ -86,7 +85,6 @@ ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=*;HOSTNAME=*;P
 - Add the Github Repo URL https://github.com/mostafa3m/Flask-db-oc.git in its field and show advanced option then add `/flask-app` in Context Dir field and choose a name for your app then press on Deployment Configuration
 
 ![](snaps/OC8.png)
-![](snaps/OC9.png)
 
 
 - IN Deployment Configuration choose Add from config map or secret and add the values of our secret.
