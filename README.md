@@ -27,9 +27,6 @@ This tutorial should take about 45 min to complete.
 
 - Go to Catalog -> choose services from the left pane -> tick the database checkbox -> choose db2
 
-![db2 on ibm cloud](snaps/db2_1.png)
-
-
 - Create a lite plan instance of db2 database, change the location and name if you wish then press create
 
 ![create db2](snaps/db2_2.png)
@@ -41,10 +38,6 @@ This tutorial should take about 45 min to complete.
 
 - press service credentials then new credentials
 
-![db2 credentials1](snaps/db2_3.png)
-
-
-
 - expand your created credentials and make note of the database URI
 
 ![db2 credentials2](snaps/db2_5.png)
@@ -53,7 +46,6 @@ This tutorial should take about 45 min to complete.
 
 - [optional] open the console to track changes in the database
 
-![db2 console](snaps/db2_6.png)
 
 ***3- create an OpenShift Project***
 
