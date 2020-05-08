@@ -72,7 +72,6 @@ ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=*;HOSTNAME=*;P
 
 -Or from OC webconsole go to search under advanced and filter services for secrets then create a key value secret
 ![](snaps/OC3.png)
-![](snaps/OC4.png)
 
 ***5- deploy the flask app and connect it to the db database***
 
@@ -116,8 +115,6 @@ Wait for the app to be completely deployed then try it by pressing on the Applic
 - 1- main URL: (the APP exposed route)    
   It shows that the App is online and also creates a table named values in the db2 database
   
-  ![](snaps/OC12.png)
-
 
 - 2- insert name URL: (the APP exposed route)/insertname  
   This URL inserts a name in the table we created on the db2 database
@@ -128,7 +125,6 @@ Wait for the app to be completely deployed then try it by pressing on the Applic
 - 3- table content URl:(the APP exposed route)/db2  
    This URL shows the data in the values table
    
-   ![](snaps/OC14.png)
 
 
 - 4- Delete table URl:(the APP exposed route)/deletetable  
