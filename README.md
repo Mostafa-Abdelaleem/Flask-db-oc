@@ -67,7 +67,7 @@ oc new-project flask-db-project
 ```
 oc create secret generic dbcred --from-literal=dbcred="your db2 ssldsn value"
 ```
-ex. oc create secret generic dbced --from-literal=dbcre="DATABASE=*;HOSTNAME=*;PORT=50001;PROTOCOL=TCPIP;UID=*;PWD=*;"
+ex. oc create secret generic dbcred --from-literal=dbcred="DATABASE=*;HOSTNAME=*;PORT=50001;PROTOCOL=TCPIP;UID=*;PWD=*;"
 
 -Or from OC webconsole go to search under advanced and filter services for secrets then create a key value secret
 ![](snaps/OC3.png)
